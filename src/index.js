@@ -4,15 +4,17 @@ import contact from './contact';
 import menu from './menu';
 
 const pageLoad=(function(){
+
     let div=document.getElementById('content');
     div.appendChild(header());
+    
     div.appendChild(home());
 
     let navHome=document.getElementById('navHome');
     let navMenu=document.getElementById('navMenu');
     let navContact=document.getElementById('navContact');
 
-    let homeDiv=document.querySelector('.home');
+    let homeMenuButton=document.querySelector('.menuButton');
 
     navContact.onclick =()=>{
         div.removeChild(div.lastChild);
@@ -26,7 +28,6 @@ const pageLoad=(function(){
     navMenu.onclick=()=>{
         div.removeChild(div.lastChild);
         div.appendChild(menu());
-    }
-
+    }     
     
 })();

@@ -1,0 +1,46 @@
+.menuMain{
+    text-align: center;
+    margin: 10px;
+}
+.menuCard{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+   justify-content: center;
+
+}
+.menuMain h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.menuItem{
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    background:#ab5b26;
+    padding: 10px;
+    width: 500px;
+    height: 200px;
+    justify-content: space-around;
+    box-shadow:  8px 5px 5px rgb(0, 0, 0);
+}
+
+.menuItem img{
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    justify-self: flex-star ;
+}
+
+.menuItem .content h2{
+    font-size: 2em;
+}
+
+.menuItem .content p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2em;
+}

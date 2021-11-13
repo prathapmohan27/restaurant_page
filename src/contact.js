@@ -4,30 +4,38 @@ export default function contact(){
     
     let contactDiv= document.createElement('div');
     contactDiv.classList.add('contact');
+    
     let h1 = document.createElement('h1');
     h1.textContent='Contact';
 
     contactDiv.appendChild(h1);
 
     function createDiv(link,name,email,phone){
+
         let mainDiv =document.createElement('div');
         mainDiv.classList.add('workers');
+
         let img=document.createElement('img');
         img.alt='chef photo';
         img.src=link;
         mainDiv.appendChild(img);
+
         let subDiv=document.createElement('div');
         subDiv.classList.add('subDiv');
+
         let chefName=document.createElement('p');
         chefName.textContent=name;
         subDiv.appendChild(chefName);
+
         let chefEmail=document.createElement('p');
         chefEmail.textContent=email;
         subDiv.appendChild(chefEmail);
+
         let chefPhone=document.createElement('p');
         chefPhone.textContent=phone;
         subDiv.appendChild(chefPhone);
         mainDiv.appendChild(subDiv);
+
         return mainDiv;
     }
     contactDiv.appendChild(createDiv('https://cdn.pixabay.com/photo/2015/10/11/14/13/making-food-982410__340.jpg','Nami','nami@gmail.com','5353-6354-5432'));
