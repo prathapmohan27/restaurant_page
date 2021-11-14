@@ -42,8 +42,8 @@ export default function menu(){
         return menuItem;
 
     }
-
-    menuCard.appendChild(createItem('Apple Pie','apple pie','https://cdn.pixabay.com/photo/2020/08/11/13/58/apple-pie-5479993__480.jpg',`pie crust,dark brown sugar,tapioca,butter,cinnamon`,'10$'));
+    menuCard.appendChild(createItem('Apple pie','apple pie','https://cdn.pixabay.com/photo/2017/12/15/16/00/cake-3021298__340.jpg',`Apple pie is a dessert generally made from apples and pastry`,'18$'));
+    // menuCard.appendChild(createItem('Apple Pie','apple pie','https://cdn.pixabay.com/photo/2020/08/11/13/58/apple-pie-5479993__480.jpg',`pie crust,dark brown sugar,tapioca,butter,cinnamon`,'10$'));
     menuCard.appendChild(createItem('Waffles','waffles','https://cdn.pixabay.com/photo/2016/04/25/07/03/weapon-1351308__340.jpg',`Beat eggs in large bowl with hand beater until fluffy`,'15$'));
     menuCard.appendChild(createItem('Brownies','brownies','https://cdn.pixabay.com/photo/2019/02/25/19/16/brownie-4020334__340.jpg',`The best brownie recipe! Made with cocoa powder and chocolate chips`,'40$'));
     menuCard.appendChild(createItem('Eclair Cake','Eclair Cake','https://cdn.pixabay.com/photo/2017/10/30/17/39/eclairs-2903014__340.jpg',` It uses graham crackers and a pudding mixture`,'50$'));

@@ -37,10 +37,32 @@
 
 .menuItem .content h2{
     font-size: 2em;
+    color: black;
 }
 
 .menuItem .content p{
     margin: 0;
     font-weight: 700;
     font-size: 1.2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .menuMain .menuCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuCard .menuItem{
+        width: 95%;
+    }
+    .menuItem .content h2{
+        font-size: 1.3em;
+    }
+    .menuItem .content p{
+        font-size: .8em;
+    }
+    .menuItem img{
+        height: 150px;
+        width: 150px;
+    }
 }

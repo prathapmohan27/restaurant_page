@@ -29,3 +29,14 @@
 .navButton:hover{
     color: orange;
 }
+@media only screen and (max-width: 768px) {
+    .navigationBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigationBar .navButton{
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+}
